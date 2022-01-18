@@ -1,0 +1,69 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://www.lifewire.com/thmb/sBTTdVbzhERHQvozM94KDsJjK0I=/1280x800/filters:no_upscale():max_bytes(150000):strip_icc()/vladstudio-library-wallpaper-5919cd763df78cf5fa3d7e27.jpg");
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 50px;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 25px;
+  cursor: pointer;
+  background-color: rgb(233, 61, 61);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.loginButton:hover {
+  background-color: rgb(234, 50, 50);
+}
+
+.loginRegisterButton {
+  position: absolute;
+  bottom: 150px;
+  align-self: center;
+  background-color: teal;
+  cursor: pointer;
+  padding: 10px 70px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.loginRegisterButton:hover {
+  background-color: rgb(1, 114, 114);
+}
